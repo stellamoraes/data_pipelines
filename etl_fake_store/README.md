@@ -10,7 +10,7 @@ Os dados foram transformados com o objetivo de responder as seguintes perguntas:
 
 Modelo pensado para extração dos dados de uma API e armazenamento desses dados brutos em camada da Cloud Store (o equivalete ao Amazon S3 na AWS); o armazenamento dos dados brutos faciliam a criação de novas tabelas analíticas e reprocessamentos. Na etapa de transformação, são realizados relacionamentos entre datasets, agregações e limpezas visando atender as necessidades do negócio. Após a transformação é feito o carregamento do dado analítico no data warehouse/data lake para consumo dos(as) usuários(as).
 
-![Arquitetura para automação](fake_store_etl_orchestration.jpeg)
+![Arquitetura para automação](images/fake_store_etl_orchestration.jpeg)
 
 ### Componentes
 1- **Google Storage**: Armazenamento de dados brutos e dados tratados em difetentes camadas.
